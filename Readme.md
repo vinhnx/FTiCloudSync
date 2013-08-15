@@ -7,6 +7,10 @@ Installation
 ------------
 Drag all files into your Xcode project.
 
++ Add `libicucore.A.dylib` to your **Link Binary With Libraries**.
++ (optional) If your project use ARC, make sure you add `-fno-objc-arc` **Compiler Flags** option to `RegexKitLite.m`.
++ Build & Profit!
+
 
 Requirements
 ------------
