@@ -5,6 +5,27 @@ Automatically syncs NSUserDefaults across multiple iOS devices using iCloud.
 
 Installation
 ------------
+
+### Quick way ###
+
+The quickway is to use [Cocoapods](http://cocoapods.org/)
+
+Just add 
+
+```ruby
+pod FTiCloudSync
+```
+
+to your `Podfile` then in Terminal, just run
+
+```bash
+$ pod install
+```
+
+That's it!
+
+### Manually ###
+
 Drag all files into your Xcode project.
 
 + `#import "NSUserDefault+iCloud.h"` in your AppDelegate.
